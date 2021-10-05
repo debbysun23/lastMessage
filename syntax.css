@@ -1,0 +1,52 @@
+body{
+  background-color: #fff;
+}
+
+#main-content{
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid #003;
+  border-width: 80px 15px 50px 25px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+button{
+  width: 80px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+background-color: #003;
+color: #fff;
+}
+
+button{
+  position: relative;
+  margin-top: 10px;
+}
+
+.sub{
+  color: #003;
+}
+
+form{
+width: 360px;
+margin: auto;
+padding-right: 10px;
+}
+
+input{
+  width: 100%;
+  height: 30px;
+}
+
+input:focus {
+  box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+  border: 1px solid rgb(255, 0, 0);
+}
+
+input{
+  outline: none;
+}
